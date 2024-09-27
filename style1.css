@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+body{
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+
+
+/* cursor settings */
+#cursor{
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: fixed;
+}
+
+/* page settings */
+
+.nav{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+
+.nav h2{
+    font-size: 45px;
+}
+
+.part2{
+    display: flex;
+    gap: 50px;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 120px;
+    letter-spacing: 1.3rem;
+    white-space: nowrap;
+}
+
+h3{
+    font-size: 30px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    position: relative;
+}
+
+#page2 p{
+    position:absolute;
+    top: 55%;
+    color: #fff;
+    font-size: 2.5rem;
+    left:50;
+}
+
+.hero {
+    position: relative;
+    width: 100vh;
+    height: 100vh; /* Set the height to 100% of the viewport */
+    overflow: hidden;
+  }
+  
+  /* Style the video */
+  #hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vh;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+}
+
+#page3 h4{
+    font-size: 40vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    white-space: nowrap;
+    color: #000;
+}
+
+
+/* page4 */
+
+#page4{
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page4 button{
+    height: 150px;
+    width: 350px;
+    border: 8px solid white;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+
+}

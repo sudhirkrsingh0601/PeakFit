@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calories Prediction Result</title>
+    <link rel="stylesheet" href="result.css">
+</head>
+<body>
+    <div class="result-container">
+        <h2>Calories Prediction Result</h2>
+        <p>Based on your input, the predicted daily calorie needs are:</p>
+        <h3>{{ calories }} calories</h3>
+        <div class="interpretation">
+            <p>This prediction is based on factors such as your age, weight, height, training intensity, and other health metrics you provided.</p>
+            <p>Remember, this is an estimate. Your actual calorie needs may vary based on factors not accounted for in this model.</p>
+        </div>
+        <div class="actions">
+            <a href="{{ url_for('index') }}" class="button">Make Another Prediction</a>
+        </div>
+    </div>
+</body>
+</html>
